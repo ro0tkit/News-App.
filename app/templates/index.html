@@ -1,0 +1,37 @@
+{% extends 'base.html'%}
+{% import 'macros.html' as macro%}
+<!-- Styles block -->
+
+
+<!-- Content block -->
+{% block content %}
+<div class="container">
+    <div class="row">
+      <div class="col">
+    {% include 'sidebar.html' %}
+    </div>
+
+    <br><br><br>
+ <div class="col">
+ 
+</div>
+
+            <!-- general news section-->
+                 
+    
+    <p>
+        {{ macro.displayNewsList (general) }}
+
+    </p>  
+    <hr>
+ 
+   
+    </p>
+</div>
+<style>
+    #articles-container{
+    margin-left: 250px;
+}
+</style>
+
+    {% endblock%}
