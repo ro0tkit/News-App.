@@ -1,7 +1,7 @@
 # News App.
  This is a flask news app that generates news using the newsapi.The user can view latest stories from different sources.
 ## Languages and Technologies used
--This application is built on a Flask framework using Python language
+-This application is built on a Flask framework using Python language.
 
 
 ## Setup requirements and Installation
